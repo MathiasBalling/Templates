@@ -3,7 +3,7 @@
 #include <wx/wx.h>
 
 // Header Files
-#include "../Header/MainFrame.h"
+#include "MainFrame.h"
 
 enum
 {
