@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.26)
-project(wx-myapp)
+project(wx-app)
 
 Set(CMAKE_CXX_STANDARD 11)
 
