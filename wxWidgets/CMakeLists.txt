@@ -3,7 +3,7 @@ project(wx-app)
 
 Set(CMAKE_CXX_STANDARD 11)
 
-find_package(wxWidgets REQUIRED COMPONENTS net core base)
+find_package(wxWidgets REQUIRED)
 if(wxWidgets_USE_FILE) # not defined in CONFIG mode
     include(${wxWidgets_USE_FILE})
 endif()
